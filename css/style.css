@@ -197,15 +197,15 @@
       border-bottom-right-radius: 0px;
   }
 
-  .section2 .top div::after{
+.section2 .top div::after{
        content:'';
        position: absolute;
-       right:-1px;
+       right:-0.5px;
        top:55px;
        border-left: 30px solid transparent ; 
        border-top: 40px solid white ;
-  }
-  @media (max-width:768px) {
+}
+@media (max-width:768px) {
     .section2 .top div{
         left: 50%;
         transform: translateX(-50%);
@@ -215,8 +215,8 @@
     .section2 .top div::after{
        display: none;
     }
-  }
-  .section2 .top div p{
+}
+.section2 .top div p{
       color: black;
        font-weight: 700;
        font-size: 30px;
