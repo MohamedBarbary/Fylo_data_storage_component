@@ -1,7 +1,7 @@
 
 
 /* End variables */
- html {
+html {
     scroll-behavior: smooth;
   }
 /*End component*/
@@ -147,6 +147,8 @@
       /* margin-left: auto;
      margin-right: auto; */
      background-image:linear-gradient(to right, hwb(6 60% 0%) 40% ,   hsl(335, 100%, 65%) 100%);
+     background-image: -webkit-linear-gradient(to right, hwb(6 60% 0%) 40% ,   hsl(335, 100%, 65%) 100%);
+     background-image: -moz-linear-gradient(to right, hwb(6 60% 0%) 40% ,   hsl(335, 100%, 65%) 100%);
      border-top-left-radius: 40px;
      border-bottom-left-radius: 40px;
      border-top-right-radius: 40px;
